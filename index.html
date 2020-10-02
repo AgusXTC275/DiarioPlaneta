@@ -47,8 +47,14 @@
         <li> hola 1 </li>
         <li> hola 2 </li> 
       </ul>
-
+      <ol>
+        <li> hola 1 </li>
+        <li> hola 2 </li> 
+      </ol>
+      <br>
+      <hr>
       <!--tablas-->
+      <br>
       <table>
         <thead>
           <tr>
@@ -66,5 +72,45 @@
           </tr>
         </tbody>
       </table>
+      <br>
+      <hr>
+      <!--Formas-->
+      <br>
+      <form action="process.php" method="Post">
+         <div>
+          <label>Nombre</label>
+          <input Type="text" name="Nombre">
+        </div>
+        <br>
+        <div>
+          <label>Apellido</label>
+          <input Type="text" name="Apellido">
+        </div>
+        <br>
+        <div>
+          <label>Mensaje</label>
+          <textarea></textarea>
+        </div>
+        <br>
+        <div>
+          <label>Género</label>
+          <select name="genero">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="Helicóptero Apache">Helicoptero</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label>Edad</label>
+          <input Type="number" name="Edad">
+        </div>
+        <br>
+        <div>
+          <label>Fecha Nacimiento</label>
+          <input Type="date" name="Nacimiento">
+        </div>
+        
+      </form>
   </body>
 </html>
