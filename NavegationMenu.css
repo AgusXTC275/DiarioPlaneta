@@ -1,14 +1,12 @@
-ul.topnav{
+.topnav{
+    display:block;
     position:fixed;
     width: 100%;
     background-color: white;
-    padding:30px 25% 30px 30%;
+    padding:20px 0px 20px 0px;
     list-style-type:none;
-   }
-li.topnav1{
-    display:inline;
 }
-li a{ 
+.topnav1{
     text-transform: uppercase;
     text-align: left;
     color:#333;
@@ -17,10 +15,6 @@ li a{
     }
 
 li:hover{
+    border: tomato;
     text-decoration: underline;
-}
-
-h1{
-    font-family: Rubik,sans-serif;
-    font-size: 1.75rem;
 }
