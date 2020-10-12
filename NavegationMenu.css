@@ -1,18 +1,19 @@
-.nav1 {
-    text-align: center;
-           }
-             li.nav2 {
-       display:inline;
-                      }
-           a.nav3{
-           text-decoration: none;
-           text-transform: uppercase;
-           color:black;
-          padding-right: 8px;
-          width: 100%;
-     
-     
-           }
-            a.nav3:hover{
-           text-decoration: underline;
-                      }
+header{
+      width: 100%;
+}
+.nav1{
+      text-align: center;
+}
+li.nav2{
+        display:inline;
+}
+a.nav3{
+      text-decoration: none;
+      text-transform: uppercase;
+      color:black;
+      padding-right: 8px;
+      width: 100%;
+}
+a.nav3:hover{
+            text-decoration: underline;
+}
