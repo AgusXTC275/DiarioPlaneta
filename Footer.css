@@ -1,0 +1,23 @@
+footer{
+    background-color: black;
+    color:white;
+    }
+    .foot1 {
+        text-align: center;
+        background-color: grey;
+               }
+                 li.foot2 {
+           display:inline;
+                          }
+               a.foot3{
+               text-decoration: none;
+               text-transform: uppercase;
+               color:black;
+              padding-right: 8px;
+              width: 100%;
+         
+         
+               }
+                a.foot3:hover{
+               text-decoration: underline;
+                          }
