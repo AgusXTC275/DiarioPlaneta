@@ -1,0 +1,15 @@
+.header-logo {
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color:rgb(192, 24, 24);
+    width: 100%; 
+    height: 60px;
+}
+.logo {
+    display:block;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom:10px;
+}
